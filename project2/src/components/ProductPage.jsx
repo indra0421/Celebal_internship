@@ -3,6 +3,7 @@ import './ProductPage.css'
 
 const ProductCard = ({ product, addToCart, isAdded }) => {
     const { id, title, image, price, rating } = product;
+    // const { id, title, image, price, rating } = product;
 
     return (
         <div className="product-card">
